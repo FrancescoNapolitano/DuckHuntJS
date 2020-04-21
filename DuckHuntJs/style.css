@@ -1,0 +1,40 @@
+.gameContainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /*background-image: url("sprite/backGround.jpg");*/
+}
+
+.gameContainer canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gameContainer p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: pixel;
+}
+
+@font-face{
+    font-family: pixel;
+    src: url(font/pixel.ttf);
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+
+}
+
+.playBTN{
+    width: 300px;
+    height: 120px;
+    font-family: pixel;
+    font-size: 48px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
